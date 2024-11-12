@@ -1,7 +1,14 @@
 {
+  "name": "qualyt-llc-project",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "mongoose": "^8.8.1"
+    "express": "^4.x",
+    "mongoose": "^5.x",
+    "dotenv": "^8.x",
+    "cors": "^2.x"
   }
 }
