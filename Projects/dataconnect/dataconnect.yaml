@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "Projects"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "qualytapp"
+      cloudSql:
+        instanceId: "Projects-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
