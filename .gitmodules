@@ -1,3 +1,6 @@
 [submodule ".nvm"]
 	path = .nvm
 	url = https://github.com/username/repository-name
+[submodule "Desktop/PyTorch_Project/ProofOfConcept1.0"]
+	path = Desktop/PyTorch_Project/ProofOfConcept1.0
+	url = https://github.com/qualyt-startup/ProofOfConcept1.0
